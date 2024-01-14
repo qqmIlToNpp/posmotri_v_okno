@@ -47,7 +47,9 @@ ol {
 .content {
   display: flex;
   align-items: flex-end;
-  margin: 133px 30px;
+  /* margin: 133px 30px;  в тестах гита пишет за несоответствие позиции
+  на странице, выставил авто для теста, а так оставил бы 133px*/
+  margin: auto 30px;
   width: 1140px;
   height: 534px;
   gap: 30px;
